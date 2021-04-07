@@ -8,8 +8,6 @@ grails:
             # Whether to translate GORM events into Reactor events
             # Disabled by default for performance reasons
             events: false
-    mongodb:
-        url: "mongodb+srv://root:67ERH@45hu12@example-development.garhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 info:
     app:
         name: '@info.app.name@'
@@ -75,8 +73,5 @@ grails:
 ---
 grails:
     mongodb:
-        host: localhost
-        port: 27017
-        #username: ""
-        #password: ""
-        #databaseName: "mydatabase"
+        mongodb:
+            url: "mongodb+srv://root:67ERH@45hu12@example-development.garhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
