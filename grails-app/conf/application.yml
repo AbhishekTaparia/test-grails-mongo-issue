@@ -47,21 +47,21 @@ grails:
                         - Trident
         types:
             json:
-              - application/json
-              - text/json   
+                - application/json
+                - text/json
             hal:
-              - application/hal+json
-              - application/hal+xml  
+                - application/hal+json
+                - application/hal+xml
             xml:
-              - text/xml
-              - application/xml                                 
+                - text/xml
+                - application/xml
             atom: application/atom+xml
             css: text/css
             csv: text/csv
             js: text/javascript
             rss: application/rss+xml
             text: text/plain
-            all: '*/*'            
+            all: '*/*'
     urlmapping:
         cache:
             maxsize: 1000
@@ -73,5 +73,4 @@ grails:
 ---
 grails:
     mongodb:
-        mongodb:
-            url: "mongodb+srv://root:67ERH@45hu12@example-development.garhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        url: "mongodb+srv://root:67ERH@45hu12@example-development.garhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
